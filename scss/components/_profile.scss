@@ -1,0 +1,18 @@
+.profile {
+	@include flex-mother();
+	justify-content: flex-start;
+	height: 70px;
+	margin-top: 3em;
+	border-top: 1px solid map-get($neutral-colors, neutralVeryDarkBlueLine);
+	&__image {
+		@include sizing(20px, 20px);
+		margin-right: 1em;
+	}
+	&__heading {
+		color: map-get($primary-colors, primarySoftBlue);
+		font-weight: map-get($font-weights, fw400);
+		&-name {
+			color: map-get($neutral-colors, neutralWhite);
+		}
+	}
+}

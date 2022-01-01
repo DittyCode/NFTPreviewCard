@@ -1,0 +1,21 @@
+.main {
+	width: 300px;
+	height: clamp(520px, 60vh, 600px);
+	background-color: map-get($neutral-colors, neutralVeryDarkBlueCard);
+	border-radius: 1.5rem;
+	padding: 3rem;
+	&__logo {
+		& > .logo {
+			border-radius: 1.5rem;
+		}
+	}
+	&__heading {
+		font-size: 2rem;
+		color: map-get($neutral-colors, neutralWhite);
+		margin: 1em 0;
+	}
+	&__description {
+		font-size: 1.5rem;
+		color: map-get($primary-colors, primarySoftBlue);
+	}
+}

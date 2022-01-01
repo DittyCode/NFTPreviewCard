@@ -1,0 +1,22 @@
+.about {
+	@include flex-mother();
+	justify-content: space-between;
+	margin-top: 1.5em;
+
+	img {
+		@include sizing(20px, 20px);
+		margin-right: 1em;
+	}
+	&__price {
+		@include flex-mother();
+		justify-content: space-between;
+		width: 30%;
+		color: map-get($primary-colors, primaryCyan);
+	}
+	&__timeleft {
+		@include flex-mother();
+		justify-content: space-between;
+		width: 30%;
+		color: map-get($primary-colors, primarySoftBlue);
+	}
+}

@@ -1,0 +1,19 @@
+$font-family: 'Outfit', sans-serif;
+$font-size: 62.5%;
+$font-weights: (
+	'fw300': 300,
+	'fw400': 400,
+	'fw600': 600,
+);
+
+$primary-colors: (
+	'primarySoftBlue': hsl(215, 51%, 70%),
+	'primaryCyan': hsl(178, 100%, 50%),
+);
+
+$neutral-colors: (
+	'neutralVeryDarkBlue': hsl(217, 54%, 11%),
+	'neutralVeryDarkBlueCard': hsl(216, 50%, 16%),
+	'neutralVeryDarkBlueLine': hsl(215, 32%, 27%),
+	'neutralWhite': hsl(0, 0%, 100%),
+);

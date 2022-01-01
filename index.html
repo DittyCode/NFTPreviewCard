@@ -9,8 +9,48 @@
 			sizes="32x32"
 			href="./images/favicon-32x32.png"
 		/>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap"
+			rel="stylesheet"
+		/>
 		<link rel="stylesheet" href="./dist/css/styles.css" />
 		<title>Frontend Mentor | NFT preview card component</title>
 	</head>
-	<body></body>
+	<body>
+		<main class="main">
+			<div class="main__logo">
+				<img
+					src="./images/image-equilibrium.jpg"
+					alt="Equilibrium"
+					class="logo"
+				/>
+			</div>
+			<h1 class="main__heading">Equilibrium #3429</h1>
+			<p class="main__description">
+				Our Equilibrium collection promotes balance and calm.
+			</p>
+			<div class="about">
+				<span class="about__price">
+					<img src="./images/icon-ethereum.svg" alt="" />
+					0.041 ETH
+				</span>
+				<span class="about__timeleft">
+					<img src="./images/icon-clock.svg" alt="" />
+					3 days left
+				</span>
+			</div>
+			<div class="profile">
+				<img
+					src="./images/image-avatar.png"
+					alt="profile avatar"
+					class="profile__image"
+				/>
+				<h2 class="profile__heading">
+					Creation of <span class="profile__heading-name">Jules Wyvern</span>
+				</h2>
+			</div>
+		</main>
+	</body>
 </html>
